@@ -105,3 +105,47 @@ footer {
   font-size: 0.9rem;
   border-top: 3px solid #b9935f;
 }
+
+/* Component Table Styles */
+.component-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.component-table th,
+.component-table td {
+  border: 1px solid #b47f42;
+  padding: 0.75rem;
+  text-align: left;
+  background: #2b1a12;
+}
+
+.component-table th {
+  background: #3e2c1c;
+  color: #ffc66d;
+}
+
+/* Interactive Panel Nav */
+.panel-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.panel-nav a {
+  background: #4a3424;
+  color: #f5d9a6;
+  padding: 0.5rem 1rem;
+  border: 2px solid #b47f42;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.panel-nav a:hover {
+  background: #60422e;
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #b47f42;
+}
