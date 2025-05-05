@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Automated Curtain Opener</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Automated Curtain Opener</h1>
+    <nav>
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+
+
+  <section>
+    <h2>Project Description</h2>
+    <p>
+      This project is an Arduino-based automated curtain opener that uses a real-time clock module (DS1307), a motor driver (L293D), and a DC motor.
+      It opens and closes your curtains at scheduled times—perfect for morning sunlight or privacy at night.
+    </p>
+
+
+    <h2>Tools & Components</h2>
+    <ul>
+      <li>Arduino Uno R3</li>
+      <li>DS1307 RTC Module</li>
+      <li>L293D Motor Driver</li>
+      <li>DC Motor</li>
+      <li>Breadboard + Jumper Wires</li>
+    </ul>
+
+
+    <h2>Component Breakdown</h2>
+    <table class="component-table">
+      <tr>
+        <th>Component</th>
+        <th>Function</th>
+      </tr>
+      <tr>
+        <td>Arduino Uno R3</td>
+        <td>Main microcontroller that runs the code</td>
+      </tr>
+      <tr>
+        <td>DS1307 RTC Module</td>
+        <td>Provides real-time clock functionality for scheduled actions</td>
+      </tr>
+      <tr>
+        <td>L293D Motor Driver</td>
+        <td>Controls the direction of the DC motor</td>
+      </tr>
+      <tr>
+        <td>DC Motor</td>
+        <td>Physically opens and closes the curtains</td>
+      </tr>
+    </table>
+
+
+    <h2>Prototype</h2>
+    <p>
+      The current setup is a working prototype. It's breadboarded for easy testing, and I’ve verified the timed curtain-opening function using the RTC.
+    </p>
+    <img src="images/IMG_5423.jpg" alt="Curtain Opener Prototype" style="max-width: 100%; border: 2px solid #b47f42; border-radius: 8px; margin-top: 1rem;"/>
+
+
+    <h2>Next Steps</h2>
+    <p>
+      I’m going to ditch this design and replace it with the <strong>Seeed XIAO nRF52840</strong> and a <strong>DRV8833 dual H-bridge motor driver module</strong>.
+      I won’t need the RTC module anymore since the Seeed XIAO’s BLE feature lets me sync time directly from my phone—and control it as well.
+      The only thing I need now is a <strong>buck converter to step down 9V to 5V</strong>, and then I’ll solder everything together into a compact final version.
+    </p>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Brian Iglesias</p>
+  </footer>
+</body>
+</html>
