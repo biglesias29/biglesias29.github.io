@@ -1,151 +1,172 @@
 body {
-  font-family: 'Roboto Slab', serif;
-  margin: 0;
-  background: #1c1c1c url('https://www.transparenttextures.com/patterns/brushed-alum.png');
-  color: #f4e3c1;
-}
-
-header {
-  background: #3e2c1c;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 4px solid #ad8b52;
-  flex-wrap: wrap;
-}
-
-header h1 {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 2rem;
-  color: #ffc66d;
-  flex-grow: 1;
-}
-
-nav a {
-  color: #ffdfaa;
-  text-decoration: none;
-  margin-left: 1.5rem;
-  font-weight: bold;
-}
-
-.hero {
-  text-align: center;
-  padding: 4rem 1rem;
-  background: #2b1a12;
-  border-bottom: 4px double #b47f42;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  font-family: 'Cinzel Decorative', cursive;
-  color: #ffcc66;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-section {
-  padding: 3rem 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-
-h2 {
-  font-family: 'Cinzel Decorative', cursive;
-  border-bottom: 2px dashed #b9935f;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.project-card {
-  background: #3a2b1e;
-  padding: 1.5rem;
-  border: 2px solid #b47f42;
-  border-radius: 10px;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.project-card:hover {
-  background: #503928;
-  transform: scale(1.03);
-}
-
-.project-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  background-color: #b47f42;
-  color: #fff3dc;
-  border: 2px solid #8c6239;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.project-button:hover {
-  background-color: #a56e2b;
-  transform: scale(1.05);
-}
-
-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: #2b1a12;
-  color: #a78962;
-  font-size: 0.9rem;
-  border-top: 3px solid #b9935f;
-}
-
-/* Component Table Styles */
-.component-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-.component-table th,
-.component-table td {
-  border: 1px solid #b47f42;
-  padding: 0.75rem;
-  text-align: left;
-  background: #2b1a12;
-}
-
-.component-table th {
-  background: #3e2c1c;
-  color: #ffc66d;
-}
-
-/* Interactive Panel Nav */
-.panel-nav {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.panel-nav a {
-  background: #4a3424;
-  color: #f5d9a6;
-  padding: 0.5rem 1rem;
-  border: 2px solid #b47f42;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.panel-nav a:hover {
-  background: #60422e;
-  transform: scale(1.05);
-  box-shadow: 0 0 5px #b47f42;
-}
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background: #1c1c1c url('https://www.transparenttextures.com/patterns/brushed-alum.png');
+    color: #f4e3c1;
+  }
+  
+  
+  header {
+    background: #3e2c1c;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #ad8b52;
+    flex-wrap: wrap;
+  }
+  
+  
+  header h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2rem;
+    color: #ffc66d;
+    flex-grow: 1;
+  }
+  
+  
+  nav a {
+    color: #ffdfaa;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #2b1a12;
+    border-bottom: 4px double #b47f42;
+  }
+  
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffcc66;
+  }
+  
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  
+  section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  
+  h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    border-bottom: 2px dashed #b9935f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  
+  .project-card {
+    background: #3a2b1e;
+    padding: 1.5rem;
+    border: 2px solid #b47f42;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  
+  .project-card:hover {
+    background: #503928;
+    transform: scale(1.03);
+  }
+  
+  
+  .project-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #b47f42;
+    color: #fff3dc;
+    border: 2px solid #8c6239;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  
+  .project-button:hover {
+    background-color: #a56e2b;
+    transform: scale(1.05);
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #2b1a12;
+    color: #a78962;
+    font-size: 0.9rem;
+    border-top: 3px solid #b9935f;
+  }
+  
+  
+  /* Component Table Styles */
+  .component-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  
+  .component-table th,
+  .component-table td {
+    border: 1px solid #b47f42;
+    padding: 0.75rem;
+    text-align: left;
+    background: #2b1a12;
+  }
+  
+  
+  .component-table th {
+    background: #3e2c1c;
+    color: #ffc66d;
+  }
+  
+  
+  /* Interactive Panel Nav */
+  .panel-nav {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  
+  .panel-nav a {
+    background: #4a3424;
+    color: #f5d9a6;
+    padding: 0.5rem 1rem;
+    border: 2px solid #b47f42;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  
+  .panel-nav a:hover {
+    background: #60422e;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #b47f42;
+  }
+  
